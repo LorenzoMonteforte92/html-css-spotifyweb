@@ -36,11 +36,9 @@ img{
 }
 
 .button{
-    background-color: white;
-    padding: 10px;
-    color: black;
+    background-color: transparent;
+    color: inherit;
     border: none;
-    border-radius: 30px;
     text-align: center;
     cursor: pointer;
     font-family: inherit;
@@ -50,8 +48,12 @@ img{
     flex-grow: 1;
 }
 
-.link-align{
+.align-super{
     vertical-align: super;
+}
+
+.align-sub{
+    vertical-align: sub;
 }
 
 /*----------
@@ -61,7 +63,7 @@ img{
 header{
     width: 15%;
     background-color: #000000;
-    color: white;
+    color: #717171;
     font-weight: bold;
     display: flex;
     flex-direction: column;
@@ -80,6 +82,23 @@ header .logo{
 
 header .link img{
     max-width: 30px;
+}
+
+header .playlist{
+    overflow-y: auto;
+}
+
+.playlist h3{
+    color: white;
+}
+
+.playlist .button{
+    margin: 15px 0px;
+}
+
+.fa-square-plus{
+    font-size: 40px;
+    margin-right: 5px;
 }
 
 /*---------
