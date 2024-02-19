@@ -17,13 +17,16 @@
 </head>
 <body>
     <header>
-        <div class="logo"><img src="./img/logo.svg" alt="spotify logo"></div>
-        <nav class="link" >
-            <li><a href="#"><img src="./img/home.svg" alt="home"></a> <a class="align-super" href="#">Home</a></li>
-            <li><a href="#"><img src="./img/search.svg" alt="search"> <a class="align-super" href="#">cerca</a></a></li>
-            <li><a href="#"><img src="./img/libreria.svg" alt="library"> </a> <a class="align-super" href="#">La tua libreria</a></li>
+        <div class="logo">
+            <img class="disappear-elmnt" src="./img/logo.svg" alt="spotify logo">
+            <img class="small-logo" src="./img/logo-small.svg" alt="">
+        </div>
+        <nav class="link query-icons" >
+            <li><a href="#"><img src="./img/home.svg" alt="home"></a> <a class="align-super disappear-elmnt" href="#">Home</a></li>
+            <li><a href="#"><img src="./img/search.svg" alt="search"> <a class="align-super disappear-elmnt" href="#">cerca</a></a></li>
+            <li><a href="#"><img src="./img/libreria.svg" alt="library"> </a> <a class="align-super disappear-elmnt" href="#">La tua libreria</a></li>
         </nav>
-        <div class="playlist grow">
+        <div class="playlist grow disappear-elmnt">
             <h3>PLAYLIST</h3>
             <button class="button" ><span class="align-sub"><i class="fa-solid fa-square-plus"></i></span> <span class="align-super" >Crea Playlist</span></button>
             <nav class="link" >
@@ -37,10 +40,10 @@
             </nav>
         </div>
         <div class="user">
-            <span><a href="#"><i class="fa-regular fa-circle-down"></i></a></span> <span><a href="#">Installa app</a></span>
-            <hr>
+            <span><a href="#"><i class="fa-regular fa-circle-down"></i></a></span> <span class="disappear-elmnt"><a href="#">Installa app</a></span>
+            <hr class="disappear-elmnt" >
             <div class="profile-logo round-dimension align-baseline" ><img class="round-dimension" src="./img/profile.svg" alt="user"></div>
-            <span class="profile-name align-super" >John Doe</span>
+            <span class="profile-name align-super disappear-elmnt" >John Doe</span>
         </div>
     </header>
     <main>
