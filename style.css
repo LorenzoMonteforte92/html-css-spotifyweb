@@ -35,10 +35,8 @@ img{
 .control-footer{
     display: flex;
     list-style: none;
-    flex-wrap: wrap;
     gap: 20px;
     color: white;
-    line-height: 30px;
 }
 
 .button{
@@ -85,11 +83,43 @@ a{
     position: relative;
 }
 
+.progress-bar{
+    background-color: #5A5A5A;
+    border-radius: 10px;
+    width: 50%;
+    height: 6px;
+}
+
+.progress-bar > div{
+    background-color: #C1C1C1;
+    width: 30%;
+    height: 6px;
+}
+
+.circle-centered{
+    position: absolute;
+    left: 94%;
+    bottom: -94%;
+    color: white;
+    display: none;
+}
+
+.transition:hover .fa-circle {
+    color: #ADFF2F;
+}
+.transition:hover .position{
+    background-color: #ADFF2F;
+}
+
+.transition:hover .fa-circle {
+    display: block;
+}
+
 /*----------
     HEADER
 ------------*/
 
-header .wrapper{
+header{
     width: 20%;
     background-color: #000000;
     position:absolute;
@@ -106,6 +136,7 @@ header .wrapper{
     color: #717171;
     font-weight: bold;
     font-size: 14px;
+    height: 100%;
 }
 
 header .logo{
@@ -154,6 +185,7 @@ header .playlist{
 header .user{
     position: sticky;
     z-index: 2;
+    overflow-y: hidden;
 }
 
 header .user hr{
@@ -226,7 +258,11 @@ footer .save-track{
     font-size: 20px;
 }
 
-.control-footer li:nth-child(3){
+footer .control-footer{
+    line-height: 30px;
+}
+
+.grow .control-footer li:nth-child(3){
     font-size: 30px;
 }
 
@@ -238,36 +274,14 @@ footer .grow .tracking{
     gap: 15px;
 }
 
-.grow .progress-bar{
-    background-color: #5A5A5A;
-    border-radius: 10px;
-    width: 50%;
-    height: 6px;
+footer .footer-right{
+    width: 17%;
+    align-items: center;
+    gap: 20px;
 }
 
-.grow .progress-bar > div{
-    background-color: #C1C1C1;
-    width: 30%;
-    height: 6px;
-}
-
-.progress-bar .fa-circle{
-    position: absolute;
-    left: 94%;
-    bottom: -94%;
-    color: white;
-    display: none;
-}
-
-.tracking:hover .fa-circle {
-    color: #ADFF2F;
-}
-.tracking:hover .progress-bar > div{
-    background-color: #ADFF2F;
-}
-
-.tracking:hover .fa-circle {
-    display: block;
+.volume-bar{
+    position: relative;
 }
 
 
