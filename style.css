@@ -115,6 +115,10 @@ a{
 .transition:hover .fa-circle {
     display: block;
 }
+.white-bold{
+    color: white;
+    font-weight: bold;
+}
 
 /*----------
     HEADER
@@ -208,10 +212,6 @@ header .profile-logo{
 
 header .profile-logo > img{
     object-fit: contain;
-}
-
-header .profile-name{
-    color: white;
 }
 
 /*---------
