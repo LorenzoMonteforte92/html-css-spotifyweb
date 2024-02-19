@@ -24,15 +24,22 @@ img{
 }
 
 .link{
-    /* display: flex; */
     list-style: none;
-    /* flex-direction: column; */
-    /* flex-wrap: wrap;
-    gap: 20px; */
 }
+
 .link li > * {
     text-decoration: none;
     color: inherit;
+}
+
+.control-footer{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: white;
+    line-height: 30px;
 }
 
 .button{
@@ -195,6 +202,10 @@ footer .save-track{
     align-items: center;
     gap: 20px;
     font-size: 20px;
+}
+
+.control-footer li:nth-child(3){
+    font-size: 30px;
 }
 
 /*---------------
