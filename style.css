@@ -1,0 +1,103 @@
+/*----------
+    RESET
+----------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*---------------
+    TYPOGRAPHY
+-----------------*/
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*-------------
+    UTILITY
+--------------*/
+
+img{
+    max-width: 100%;
+}
+
+.link{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.link li > * {
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    background-color: white;
+    padding: 10px;
+    color: black;
+    border: none;
+    border-radius: 30px;
+    text-align: center;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+.grow{
+    flex-grow: 1;
+}
+
+.link{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    /* gap: 20px; */
+}
+.link li > * {
+    text-decoration: none;
+    color: white;
+}
+
+/*----------
+    HEADER
+------------*/
+
+header{
+    background-color: #000000;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+header .logo{
+    max-width: 135px;
+    padding: 20px;
+}
+
+/*---------
+    MAIN
+-----------*/
+main{
+    background-color: #141922;
+    height: calc(100vh - 90px);
+    overflow-y: auto;
+}
+
+/*----------
+    FOOTER
+------------*/
+
+footer{
+    height: 90px;
+    background-color: #282828;
+}
+
+/*---------------
+    RESPONSIVE
+-----------------*/
+
+@media screen and (max-width: 1100px){}
+@media screen and (max-width: 700px){}
+@media screen and (max-width: 600px){}
