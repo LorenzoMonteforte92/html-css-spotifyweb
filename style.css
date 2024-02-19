@@ -90,21 +90,23 @@ a{
     HEADER
 ------------*/
 
-header{
+header .wrapper{
     width: 20%;
     background-color: #000000;
-    color: #717171;
-    font-weight: bold;
-    font-size: 14px;
-    display: flex;
-    flex-direction: column;
-    padding: 15px;
-    gap: 20px;
     position:absolute;
     top:0;
     left: 0;
     height: calc(100% - 80px);
-    position: relative;
+}
+
+header .wrapper{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    gap: 20px;
+    color: #717171;
+    font-weight: bold;
+    font-size: 14px;
 }
 
 header .logo{
@@ -117,10 +119,10 @@ header .logo{
 
 header .green-bar{
     position: absolute;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: 400;
     left: 0;
-    top: 61px;
+    top: 60px;
     color: greenyellow;
 
 }
