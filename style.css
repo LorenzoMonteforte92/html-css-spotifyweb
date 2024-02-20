@@ -229,6 +229,22 @@ main{
     font-size: 30px;
 }
 
+main .upgrade{
+    justify-content: flex-end;
+    padding-top: 20px;
+    padding-bottom: 30px;
+    padding-right: 10px;
+    background-color: #0000002d;
+    position: sticky;
+    z-index: 2;
+}
+
+.upgrade-btn{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
 /*----------
     FOOTER
 ------------*/
