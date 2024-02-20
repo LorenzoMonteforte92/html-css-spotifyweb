@@ -292,6 +292,7 @@ main .main-nav{
     gap: 30px;
     position: relative;
     flex-wrap: wrap;
+    margin-top: 20px;
 }
 
 .main-nav .green-bar{
