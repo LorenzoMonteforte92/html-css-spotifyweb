@@ -120,6 +120,10 @@ a{
     font-weight: bold;
 }
 
+.overflow{
+    overflow-y: auto;
+}
+
 /*----------
     HEADER
 ------------*/
