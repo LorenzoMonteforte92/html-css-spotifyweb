@@ -177,6 +177,11 @@ a{
     margin-top: 10px;
 }
 
+.rounded{
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 /*----------
     HEADER
 ------------*/
