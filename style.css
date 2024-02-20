@@ -36,10 +36,6 @@ main{
 
 /* media query */
 
-/* header{
-    width: 70px;
-} */
-
 img{
     max-width: 100%;
 }
@@ -419,9 +415,6 @@ footer .footer-right{
 @media screen and (max-width: 700px){
     
     /* header */
-    header{
-        width: 30%;
-    }
 
     /* footer */
     footer .save-track{
