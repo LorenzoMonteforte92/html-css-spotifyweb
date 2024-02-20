@@ -34,8 +34,6 @@ main{
     padding: 40px 20px;
 }
 
-/* media query */
-
 img{
     max-width: 100%;
 }
@@ -132,6 +130,11 @@ a{
 .transition:hover .fa-circle {
     display: block;
 }
+
+.hover-white:hover .hover-change{
+    color: white;
+}
+
 .white-bold{
     color: white;
     font-weight: bold;
@@ -176,6 +179,10 @@ a{
 .rounded{
     object-fit: cover;
     border-radius: 50%;
+}
+
+header li a > img{
+    fill: #717171;
 }
 
 /*----------
