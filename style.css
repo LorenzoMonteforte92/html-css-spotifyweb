@@ -298,13 +298,16 @@ main .main-nav{
     position: relative;
     flex-wrap: wrap;
     margin-top: 20px;
+    font-size: 14px;
 }
 
 .main-nav .green-bar{
     transform: rotate(90deg);
-    left: 23%;
-    top: 22%;
-    font-weight: 400;
+    left: 49%;
+    top: -28%;
+    font-weight: 300;
+    color: #ADFF2F;
+    font-size: xxx-large;
 }
 
 main h3{
@@ -400,8 +403,8 @@ footer .footer-right{
     }
 
     main .main-nav .green-bar{
-        top: 12%;
-        left: 12%;
+        top: -23%;
+        left: 53%;
     }
 
     main .main-col{
@@ -444,6 +447,18 @@ footer .footer-right{
     footer .footer-right .control-footer{
         gap: 10px;
     }
+
+    /* main */
+
+    main .main-nav .green-bar{
+        top: -23%;
+        left: 53%;
+    }
+
+    main .main-col{
+        width: 50%;
+        padding: 0;
+    }
 }
 
 /* 600px responsive */
@@ -485,6 +500,19 @@ footer .footer-right{
     }
     header .user .fa-circle-down{
         padding-right: 8px;
+    }
+
+    /* main */
+
+    main .main-nav{
+        margin-left: 0px;
+        margin-right: 0px;
+        font-size: small;
+    }
+
+    main .main-nav .green-bar{
+        top: -26%;
+        left: 52%;
     }
     
 }
