@@ -19,6 +19,18 @@ body{
     UTILITY
 --------------*/
 
+.container-app{
+    display: flex;
+    height: calc(100vh - 80px);
+}
+
+
+/* media query */
+
+/* header{
+    width: 70px;
+} */
+
 img{
     max-width: 100%;
 }
@@ -121,7 +133,7 @@ a{
 }
 
 .overflow{
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 
 /*----------
@@ -129,15 +141,9 @@ a{
 ------------*/
 
 header{
-    width: 20%;
+    width: 300px;
+    flex-shrink: 0;
     background-color: #000000;
-    position:absolute;
-    top:0;
-    left: 0;
-    height: calc(100% - 80px);
-}
-
-header .wrapper{
     display: flex;
     flex-direction: column;
     padding: 15px;
@@ -145,7 +151,6 @@ header .wrapper{
     color: #717171;
     font-weight: bold;
     font-size: 14px;
-    height: 100%;
 }
 
 header .logo{
@@ -223,7 +228,6 @@ header .profile-logo > img{
 -----------*/
 main{
     background-color: #141922;
-    height: calc(100vh - 80px);
     overflow-y: auto;
     color: white;
     font-size: 30px;
@@ -234,8 +238,9 @@ main .upgrade{
     padding-top: 20px;
     padding-bottom: 30px;
     padding-right: 10px;
-    background-color: #0000002d;
+    background-color: #0000008e;
     position: sticky;
+    top: 0;
     z-index: 2;
 }
 
