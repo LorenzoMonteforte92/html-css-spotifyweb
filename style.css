@@ -282,6 +282,7 @@ main .upgrade{
 
 .upgrade-btn{
     border: 2px solid white;
+    color: white;
     border-radius: 20px;
     padding: 10px 20px;
 }
