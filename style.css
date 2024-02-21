@@ -133,7 +133,7 @@ a{
 
 .hover-white:hover .hover-change{
     color: white;
-    transition: color 0.4s;
+    transition: color 0.3s;
 }
 
 .hover-white:hover .hover-underline{
