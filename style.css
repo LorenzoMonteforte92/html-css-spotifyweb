@@ -547,5 +547,9 @@ footer .footer-right{
         top: -26%;
         left: 52%;
     }
+
+    footer .footer-center{
+        padding-left: 50px;
+    }
     
 }
