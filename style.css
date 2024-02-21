@@ -140,7 +140,7 @@ a{
 }
 
 main .card:hover .card-img-hover{
-    display: flex;
+    opacity: 1;
 }
 
 .hover-zoom:hover{
@@ -198,9 +198,6 @@ main .card:hover .card-img-hover{
     border-radius: 50%;
 }
 
-header li a > img{
-    fill: #717171;
-}
 
 /*----------
     HEADER
@@ -340,6 +337,7 @@ main .card img{
 
 main .card-img-hover{
     position: absolute;
+    display: flex;
     justify-content: center;
     align-items: center;
     top: 0;
@@ -349,8 +347,9 @@ main .card-img-hover{
     z-index: 1;
     background-color: #00000092;
     color: white;
+    opacity: 0;
+    transition: (0.8) opacity;
     font-size: 50px;
-    display: none;
 }
 
 
